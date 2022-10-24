@@ -1,0 +1,21 @@
+.footer {
+  border-top: 1px solid #000;
+  margin-top: 80px;
+}
+
+.contactInfo > p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.link {
+  display: flex;
+  margin-right: 20px;
+}
+
+.footer > p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 12px
+}

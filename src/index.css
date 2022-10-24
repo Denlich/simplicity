@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:ital,wght@0,100;0,300;0,400;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: 'Lora', sans-serif;
+  font-weight: 400
+}
+
+h2 {
+  font-size: 28px;
+
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: 'Lora', sans;
+  font-weight: 400
+}
+
+input,
+label,
+a,
+p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 9999
+}
+
+.row {
+  flex: 1;
+  flex-direction: row;
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.container {
+  padding: 0 80px;
+}
+
+.col {
+  flex: 1
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+mark,
+.thin {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+.markedText {
+  height: 15px;
+  line-height: 0.3;
+}
+
+.markedTitle {
+  height: 25px;
+  line-height: 0.3;
+}
+
+.titleContainer {
+  width: 75%;
+  margin-top: 75px;
+}

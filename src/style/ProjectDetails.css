@@ -1,0 +1,33 @@
+.infoContainer > p {
+  font-family: 'Lora', sans;
+  /* font-size: 18px; */
+}
+
+.infoContainer,
+.projectImgContainer {
+  width: 75%;
+}
+
+.screen:nth-child(2) {
+  margin-inline: 80px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li ul {
+  margin-left: 20px
+}
+
+li li {
+  list-style: square;
+}
+
+::marker {
+  font-size: 10px;
+}
+
+.screen img {
+  border: 1px solid rgba(0, 0, 0, 1);
+}

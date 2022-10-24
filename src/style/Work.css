@@ -1,0 +1,39 @@
+.project {
+  position: relative;
+}
+
+.imgContainer {
+  flex: 0.85
+}
+
+.markedProjectTitle {
+  position: absolute;
+  right: 0;
+  top: 25%;
+  z-Index: 999
+}
+
+.single {
+  width: 50%
+}
+
+.mark {
+  position: absolute;
+  background-color: #ff0;
+  width: 100%;
+  height: 75%;
+  top: 50%;
+  left: -10%;
+  z-index: -1;
+  /* animation-name: mark;
+  animation-duration: 1s; */
+}
+
+/* @keyframes mark {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%
+  }
+} */
