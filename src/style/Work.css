@@ -3,18 +3,18 @@
 }
 
 .imgContainer {
-  flex: 0.85
+  flex: 0.85;
 }
 
 .markedProjectTitle {
   position: absolute;
   right: 0;
   top: 25%;
-  z-Index: 999
+  z-index: 999;
 }
 
 .single {
-  width: 50%
+  width: 50%;
 }
 
 .mark {
@@ -28,7 +28,20 @@
   /* animation-name: mark;
   animation-duration: 1s; */
 }
-
+.grid {
+  display: grid;
+}
+@media screen and (min-width: 1024px) {
+  .grid--1x2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 2rem;
+    width: 100%;
+  }
+}
 /* @keyframes mark {
   from {
     width: 0;
