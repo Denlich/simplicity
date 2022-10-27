@@ -25,9 +25,9 @@ const social = [
 
 export default function Footer() {
   return (
-    <div className="footer container pt-80 pb-80 ">
-      <div className="row pb-80 grid grid--1x2">
-        <div className="contact col">
+    <div className="footer container pt-80 pb-80  ">
+      <div className="row pb-80 grid grid--1x2 pt-40">
+        <div className="contact col pb-40--mob">
           <MarkedTitle text="Contact" />
 
           <div className="contactInfo">
