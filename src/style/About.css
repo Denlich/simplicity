@@ -1,4 +1,13 @@
 .textContainer > p {
   width: 75%;
-  font-family: 'Lora', sans;
+  font-family: "Lora", sans;
+}
+@media screen and (max-width: 1024px) {
+  .about--details > p {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .about--practical {
+    padding: 1rem;
+  }
 }

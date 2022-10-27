@@ -1,5 +1,5 @@
 .infoContainer > p {
-  font-family: 'Lora', sans;
+  font-family: "Lora", sans;
   /* font-size: 18px; */
 }
 
@@ -17,7 +17,7 @@ li {
 }
 
 li ul {
-  margin-left: 20px
+  margin-left: 20px;
 }
 
 li li {
@@ -30,4 +30,20 @@ li li {
 
 .screen img {
   border: 1px solid rgba(0, 0, 0, 1);
+}
+@media screen and (max-width: 1024px) {
+  .technologies--list > li {
+    font-size: 2rem;
+  }
+  .whereIs > .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .details--info p {
+    font-size: 1.5rem;
+  }
+  .details--info {
+    width: 100%;
+  }
 }

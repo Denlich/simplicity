@@ -4,7 +4,7 @@ import "../index.css";
 export default function Contact() {
   return (
     <div className="container">
-      <div className="titleContainer pt-80 pb-80">
+      <div data-aos="fade-right" className="titleContainer pt-80 pb-80">
         <h1 className="title">
           Get in touch <br />
           Let's work <mark className="markedTitle">together</mark>.

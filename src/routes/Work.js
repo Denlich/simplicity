@@ -10,7 +10,7 @@ import eatIs from "../assets/img/EatIs.png";
 export default function Work() {
   return (
     <div className="container grid">
-      <div className="titleContainer pt-80 pb-80">
+      <div data-aos="fade-right" className="titleContainer pt-80 pb-80">
         <h1 className="title">
           We enjoy making ideas and turn them into{" "}
           <mark className="markedTitle">reality</mark>!
@@ -18,13 +18,13 @@ export default function Work() {
       </div>
 
       <div className="grid grid--1x2 pb-40">
-        <div className="mr-20">
+        <div className="mr-20" data-aos="fade-up">
           <Project img={mowee} name="Mowee" />
         </div>
-        <div className=" mt-10">
+        <div className=" mt-10" data-aos="fade-up">
           <Project img={foodApp} name="FoodApp" />
         </div>
-        <div className="mr-20 mt-10 ">
+        <div className="mr-20 mt-10" data-aos="fade-up">
           <Project img={eatIs} name="EatIs" />
         </div>
       </div>

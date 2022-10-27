@@ -76,8 +76,14 @@ nav {
 .mt-10 {
   margin-top: 1rem;
 }
+.mt-40 {
+  margin-top: 40px;
+}
 .mb-10 {
   margin-bottom: 1rem;
+}
+.mb-20 {
+  margin-bottom: 2rem;
 }
 
 .mr-20 {
@@ -104,6 +110,9 @@ nav {
   padding-bottom: 40px;
 }
 
+.pt-40 {
+  padding-top: 40px;
+}
 .pt-80 {
   padding-top: 80px;
 }
@@ -140,5 +149,8 @@ mark,
   .titleContainer {
     width: 100%;
     margin-top: 45px;
+  }
+  .pb-40--mob {
+    padding-bottom: 40px;
   }
 }

@@ -2,9 +2,14 @@ form {
   display: inline-block;
   width: 75%;
 }
+@media screen and (max-width: 1024px) {
+  form {
+    width: 95%;
+  }
+}
 
-input[type=text],
-input[type=email] {
+input[type="text"],
+input[type="email"] {
   width: 100%;
   border: none;
   border-bottom: 1px solid #000;
@@ -17,7 +22,7 @@ input:focus {
   outline: none;
 }
 
-input[type=submit] {
+input[type="submit"] {
   float: right;
   background-color: #fff;
   border: 1px solid #000;
